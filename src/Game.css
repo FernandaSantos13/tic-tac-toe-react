@@ -1,0 +1,42 @@
+/* Square Styles */
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 100px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+  }
+  
+  /* Board Row */
+  .board-row:after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+  
+  /* Status */
+  .status {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Game Layout */
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
